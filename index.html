@@ -1,13 +1,15 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>PBVM Bankura - Official Portal</title>
-<meta name="description" content="PBVM Bankura's official website for Admit Cards, Results, and Online Form Fill-up.">
-
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PBVM Bankura</title>
+
+  <title>PBVM Bankura – Official Website</title>
+  <meta name="description" content="Official website of PBVM Bankura. Download admit cards, check results, fill online forms, and view marksheets.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="PBVM Bankura">
+  <meta name="keywords" content="PBVM Bankura, Admit Card, Result, Online Form, Marksheet, Exam Registration, বাঁকুড়া বিজ্ঞান মানসিকতা">
+
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -16,36 +18,38 @@
     <h1 class="fade-in">PBVM BANKURA</h1>
     <p class="subtitle fade-in delay">বাঁকুড়া জেলা বিজ্ঞান মানসিকতা ও মেধা অন্বেষণ ২০২৫</p>
     <p class="subtitle fade-in delay">শুধু মাত্র বাঁকুড়া ব্লক 1 ও 2 অন্তর্ভুক্ত পরীক্ষার্থী জন্য</p>
+
     <div class="button-group fade-in delay">
       <a href="#" id="registrationLink" class="btn" target="_blank">Exam Registration</a>
       <a href="#" id="admitCardLink" class="btn" target="_blank">Admit Card Download</a>
       <a href="#" id="resultLink" class="btn" target="_blank">Result</a>
     </div>
   </div>
+
   <script src="script.js"></script>
+
+  <!-- THREE.js for 3D rendering -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+
+  <!-- Vanta.js (WAVES effect) -->
+  <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.waves.min.js"></script>
+
+  <script>
+    VANTA.WAVES({
+      el: "body",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0x0077ff,
+      shininess: 50.00,
+      waveHeight: 20.00,
+      waveSpeed: 1.00,
+      zoom: 1.00
+    })
+  </script>
 </body>
-<!-- THREE.js for 3D rendering -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-
-<!-- Vanta.js (WAVES effect) -->
-<script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.waves.min.js"></script>
-
-<script>
-  VANTA.WAVES({
-    el: "body",
-    mouseControls: true,
-    touchControls: true,
-    gyroControls: false,
-    minHeight: 200.00,
-    minWidth: 200.00,
-    scale: 1.00,
-    scaleMobile: 1.00,
-    color: 0x0077ff,       // Wave color
-    shininess: 50.00,
-    waveHeight: 20.00,
-    waveSpeed: 1.00,
-    zoom: 1.00
-  })
-</script>
-
 </html>
